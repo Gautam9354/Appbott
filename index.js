@@ -129,15 +129,14 @@ bot.onText(/\/start/, async (msg) => {
         });
         await user.save();
     } else {
-        // Optionally, you can send a message to the user if they are already registered
-        await bot.sendMessage(chatId, "Welcome back!");
+        
     }
 
     // Send welcome message with photo and buttons
     await bot.sendPhoto(chatId,
         'https://w7.pngwing.com/pngs/332/615/png-transparent-phonepe-india-unified-payments-interface-india-purple-violet-text.png',
         {
-            caption: '*Join Our Official Channel For More - https://t.me/apnidukaan7*',
+            caption: '*Join Our Official Channel For More - https://t.me/apnidukanincome*',
             parse_mode: 'Markdown',
             reply_markup: {
                 inline_keyboard: [
