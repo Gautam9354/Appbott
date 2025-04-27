@@ -13,7 +13,7 @@ let PQueue;
 const token = process.env.BOT_TOKEN;
 
 // MongoDB connection URI
-const mongoURI = "mongodb+srv://stongiron:EIjjgqR0FwYf6EbE@appbot.ri7vqmk.mongodb.net/apk?retryWrites=true&w=majority&appName=appbot";
+const mongoURI = "mongodb+srv://stongiron:EIjjgqR0FwYf6EbE@Appbott.ri7vqmk.mongodb.net/apk?retryWrites=true&w=majority&appName=Appbott";
 
 // Connect to MongoDB
 mongoose.connect(mongoURI, {
